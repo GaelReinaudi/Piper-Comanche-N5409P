@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edm_cfg>
+	<cfg_info created="1666967015" tailno=" N5409P" version="1" smart_dau="0" name="EXPERIMENTAL"/>
+	<EDM eng_temp_in_f="1" fp_sensor="1" co_guardian="0" type="830" engine1_name="Left" engine2_name="Right" fdr_out="1" simple_temps="0" carbureted="1" carb_filter="2" rfactor="4" water_cooled="0" cylinders="4" record_time="1" layout="0" version="1.400000" build="2011" beta="11"/>
+	<user_cal day_bl_adjust="50" night_bl_adjust="50" oat_adjust="0.000000" hp_value="300" hp_const="108" hp_engine_constant="137" avg_cruise="2400" lft_map_adj="-3" lft_amp_adj="0" lft_amp2_adj="0" orig_tit="0" tit_adj="0" rht_map_adj="0" rht_amp_adj="0" rht_amp2_adj="0"/>
+	<fuel_system main_tank_size="460" aux_tank_size="100" lft_k_factor_1="2990" lft_k_factor_2="2990" rht_k_factor_1="2990" rht_k_factor_2="2990" trip_mode="0" use_main_aux="0" shared_fuel_gauge="0" fuel_units="GAL" digital_lvls="0" fuel_verify="0">
+		<l_main_tank name="LFT MAIN" entries="2" qty0="0" rdg0="0" qty1="0" rdg1="0"/>
+		<r_main_tank name="RHT MAIN" entries="2" qty0="0" rdg0="0" qty1="0" rdg1="0"/>
+		<l_aux_tank name="LFT AUX" entries="2" qty0="0" rdg0="0" qty1="0" rdg1="0"/>
+		<r_aux_tank name="RHT AUX" entries="2" qty0="0" rdg0="0" qty1="0" rdg1="0"/>
+	</fuel_system>
+	<engine1>
+		<channels>
+			<C1 hi_alarm="460" dp_mask="0" lo_alarm="999999999" enabled="1" scale_factor="1" hi_alarm_pri="4" lo_alarm_pri="4" hi_primary="0" lo_primary="0"/>
+			<C2 hi_alarm="460" dp_mask="0" lo_alarm="999999999" enabled="1" scale_factor="1" hi_alarm_pri="4" lo_alarm_pri="4" hi_primary="0" lo_primary="0"/>
+			<C3 hi_alarm="460" dp_mask="0" lo_alarm="999999999" enabled="1" scale_factor="1" hi_alarm_pri="4" lo_alarm_pri="4" hi_primary="0" lo_primary="0"/>
+			<C4 hi_alarm="460" dp_mask="0" lo_alarm="999999999" enabled="1" scale_factor="1" hi_alarm_pri="4" lo_alarm_pri="4" hi_primary="0" lo_primary="0"/>
+			<C5 hi_alarm="460" dp_mask="0" enabled="0" lo_alarm="999999999"/>
+			<C6 hi_alarm="460" dp_mask="0" enabled="0" lo_alarm="999999999"/>
+			<E1 hi_alarm="1650" dp_mask="0" enabled="1" scale_factor="1" lo_alarm="999999999" hi_alarm_pri="29" lo_alarm_pri="29" hi_primary="0" lo_primary="0"/>
+			<E2 hi_alarm="1650" dp_mask="0" enabled="1" scale_factor="1" lo_alarm="999999999" hi_alarm_pri="29" lo_alarm_pri="29" hi_primary="0" lo_primary="0"/>
+			<E3 hi_alarm="1650" dp_mask="0" enabled="1" scale_factor="1" lo_alarm="999999999" hi_alarm_pri="29" lo_alarm_pri="29" hi_primary="0" lo_primary="0"/>
+			<E4 hi_alarm="1650" dp_mask="0" enabled="1" scale_factor="1" lo_alarm="999999999" hi_alarm_pri="29" lo_alarm_pri="29" hi_primary="0" lo_primary="0"/>
+			<E5 hi_alarm="1650" dp_mask="0" enabled="0"/>
+			<E6 hi_alarm="1650" dp_mask="0" enabled="0"/>
+			<E10 hi_alarm="1650" dp_mask="0" enabled="0"/>
+			<E7 hi_alarm="1650" dp_mask="0" enabled="0"/>
+			<C7 hi_alarm="280" dp_mask="0" enabled="1" lo_alarm="999999999" scale_factor="1" hi_alarm_pri="24" lo_alarm_pri="24" hi_primary="0" lo_primary="0"/>
+			<DIF hi_alarm="500" dp_mask="0" enabled="1" scale_factor="1" lo_alarm="999999999" hi_alarm_pri="11" lo_alarm_pri="999999999" hi_primary="0" lo_primary="0"/>
+			<CLD hi_alarm="60" dp_mask="0" enabled="1" scale_factor="1" lo_alarm="999999999" hi_alarm_pri="12" lo_alarm_pri="999999999" hi_primary="0" lo_primary="0"/>
+			<C11 hi_alarm="230" dp_mask="0" lo_alarm="90" enabled="1" scale_factor="1" hi_alarm_pri="3" lo_alarm_pri="14" hi_primary="0" lo_primary="0"/>
+			<USD1 hi_alarm="999999999" dp_mask="1" enabled="1" scale_factor="1" lo_alarm="999999999" hi_alarm_pri="999999999" lo_alarm_pri="999999999" hi_primary="0" lo_primary="0"/>
+			<USD2 hi_alarm="999999999" dp_mask="0" enabled="0"/>
+			<FF hi_alarm="999999999" dp_mask="0" lo_alarm="999999999" enabled="1" scale_factor="1" hi_alarm_pri="30" lo_alarm_pri="30" hi_primary="0" lo_primary="0"/>
+			<C12 hi_alarm="999999999" dp_mask="0" enabled="0"/>
+			<MAP hi_alarm="999999999" dp_mask="1" enabled="1" lo_alarm="999999999" scale_factor="1" hi_alarm_pri="10" lo_alarm_pri="10" hi_primary="0" lo_primary="0"/>
+			<RPM hi_alarm="2700" dp_mask="0" enabled="1" scale_factor="1" lo_alarm="999999999" hi_alarm_pri="13" lo_alarm_pri="13" hi_primary="0" lo_primary="0"/>
+			<OILP hi_alarm="999999999" dp_mask="0" lo_alarm="20" enabled="1" scale_factor="1" hi_alarm_pri="18" lo_alarm_pri="1" hi_primary="0" lo_primary="0"/>
+			<FP hi_alarm="300" dp_mask="1" lo_alarm="50" enabled="0"/>
+			<AMP1 hi_alarm="100" dp_mask="0" lo_alarm="-5" enabled="0"/>
+			<FQ1 hi_alarm="999999999" dp_mask="0" lo_alarm="0" enabled="0" scale_factor="1" hi_alarm_pri="6" lo_alarm_pri="6" hi_primary="0" lo_primary="0"/>
+			<FQ2 hi_alarm="999999999" dp_mask="0" lo_alarm="0" enabled="0" scale_factor="1" hi_alarm_pri="6" lo_alarm_pri="6" hi_primary="0" lo_primary="0"/>
+			<BAT1 dp_mask="1" hi_alarm="160" lo_alarm="120" enabled="1" scale_factor="1" hi_alarm_pri="0" lo_alarm_pri="15" hi_primary="0" lo_primary="0"/>
+			<C8 enabled="0"/>
+			<C9 enabled="0"/>
+			<E8 enabled="0" hi_alarm="1650" dp_mask="0"/>
+			<E9 enabled="0" hi_alarm="1650" dp_mask="0"/>
+			<FF1 enabled="1" dp_mask="1" scale_factor="1" lo_alarm="999999999" hi_alarm="999999999" hi_alarm_pri="999999999" lo_alarm_pri="999999999" hi_primary="0" lo_primary="0"/>
+			<FF2 enabled="0" dp_mask="0"/>
+			<C10 enabled="1" dp_mask="0" hi_alarm="999999999" lo_alarm="999999999" scale_factor="1" hi_alarm_pri="43" lo_alarm_pri="43" hi_primary="0" lo_primary="0"/>
+			<AMP2 enabled="0" hi_alarm="100" dp_mask="0" lo_alarm="-6"/>
+			<BAT2 enabled="0" hi_alarm="280" dp_mask="1" lo_alarm="0"/>
+			<HP enabled="1" dp_mask="0" scale_factor="1" lo_alarm="999999999" hi_alarm="999999999" hi_alarm_pri="999999999" lo_alarm_pri="999999999" hi_primary="0" lo_primary="0"/>
+			<USED enabled="1" dp_mask="1" hi_alarm="999999999" lo_alarm="999999999" scale_factor="1" hi_alarm_pri="999999999" lo_alarm_pri="999999999" hi_primary="0" lo_primary="0"/>
+			<FQ3 enabled="0" dp_mask="0" scale_factor="1" lo_alarm="999999999" hi_alarm="999999999" hi_alarm_pri="6" lo_alarm_pri="6" hi_primary="0" lo_primary="0"/>
+			<FQ4 enabled="0" dp_mask="0" scale_factor="1" lo_alarm="999999999" hi_alarm="999999999" hi_alarm_pri="6" lo_alarm_pri="6" hi_primary="0" lo_primary="0"/>
+			<AUXV enabled="0" dp_mask="0"/>
+			<HOBS enabled="1" dp_mask="0" scale_factor="1" lo_alarm="999999999" hi_alarm="999999999" hi_alarm_pri="999999999" lo_alarm_pri="999999999" hi_primary="0" lo_primary="0"/>
+			<REFT enabled="1" dp_mask="0" scale_factor="1" lo_alarm="999999999" hi_alarm="999999999" hi_alarm_pri="999999999" lo_alarm_pri="999999999" hi_primary="0" lo_primary="0"/>
+		</channels>
+	</engine1>
+	<gauges map_on_top="1">
+		<bargraph>
+			<cht>
+				<band4 start="460" end="460" color="R"/>
+				<band0 color="G"/>
+				<band1 color="G"/>
+				<band2 color="G"/>
+				<band3 color="G"/>
+			</cht>
+			<egt bands="5">
+				<band4 start="1650" end="1650" color="R"/>
+				<band0 color="G"/>
+				<band1 color="G"/>
+				<band2 color="G"/>
+				<band3 color="G" start="210"/>
+			</egt>
+		</bargraph>
+	</gauges>
+	<aircraft>
+		<channels>
+			<REM lo_alarm="100" dp_mask="1" enabled="1" hi_alarm="999999999" scale_factor="1" hi_alarm_pri="7" lo_alarm_pri="7" hi_primary="0" lo_primary="0"/>
+			<END lo_alarm="45" dp_mask="0" enabled="1" scale_factor="1" hi_alarm="999999999" hi_alarm_pri="26" lo_alarm_pri="26" hi_primary="0" lo_primary="0"/>
+			<CMN enabled="0" dp_mask="0"/>
+			<HRT enabled="0" dp_mask="0"/>
+			<OXY enabled="0" dp_mask="0"/>
+			<AC_FF enabled="1" dp_mask="1" scale_factor="1" lo_alarm="999999999" hi_alarm="999999999" hi_alarm_pri="999999999" lo_alarm_pri="999999999" hi_primary="0" lo_primary="0"/>
+			<AC_USD enabled="1" dp_mask="1" scale_factor="1" lo_alarm="999999999" hi_alarm="999999999" hi_alarm_pri="34" lo_alarm_pri="34" hi_primary="0" lo_primary="0"/>
+			<REQ enabled="1" dp_mask="1" scale_factor="1" lo_alarm="999999999" hi_alarm="999999999" hi_alarm_pri="32" lo_alarm_pri="32" hi_primary="0" lo_primary="0"/>
+			<RES enabled="1" dp_mask="1" scale_factor="1" lo_alarm="999999999" hi_alarm="999999999" hi_alarm_pri="28" lo_alarm_pri="28" hi_primary="0" lo_primary="0"/>
+			<ECON enabled="1" dp_mask="0" scale_factor="1" lo_alarm="999999999" hi_alarm="999999999" hi_alarm_pri="41" lo_alarm_pri="41" hi_primary="0" lo_primary="0"/>
+			<ALT enabled="1" dp_mask="0" scale_factor="1" lo_alarm="999999999" hi_alarm="999999999" hi_alarm_pri="999999999" lo_alarm_pri="999999999" hi_primary="0" lo_primary="0"/>
+			<LAT enabled="1" dp_mask="0" scale_factor="1" lo_alarm="999999999" hi_alarm="999999999" hi_alarm_pri="999999999" lo_alarm_pri="999999999" hi_primary="0" lo_primary="0"/>
+			<LNG enabled="1" dp_mask="0" scale_factor="1" lo_alarm="999999999" hi_alarm="999999999" hi_alarm_pri="999999999" lo_alarm_pri="999999999" hi_primary="0" lo_primary="0"/>
+			<MPH enabled="1" dp_mask="0" scale_factor="1" lo_alarm="999999999" hi_alarm="999999999" hi_alarm_pri="999999999" lo_alarm_pri="999999999" hi_primary="0" lo_primary="0"/>
+			<RAD enabled="1" dp_mask="0" scale_factor="1" lo_alarm="999999999" hi_alarm="999999999" hi_alarm_pri="999999999" lo_alarm_pri="999999999" hi_primary="0" lo_primary="0"/>
+			<SPD enabled="1" dp_mask="0" scale_factor="1" lo_alarm="999999999" hi_alarm="999999999" hi_alarm_pri="999999999" lo_alarm_pri="999999999" hi_primary="0" lo_primary="0"/>
+		</channels>
+	</aircraft>
+	<user_preferences tg_customized="0" lg_customized="1" oilp_display="0" eng_temp_in_f="1" egt_alarms="1" bat_cust="0" oat_in_f="0" scan_rate="4" usd_reminder="0" usd_to="5" egts_in_1s="1" rpm_in_1s="1" tank_totalizer="0" show_warnings="0" auto_bl="1" remote_type="0" warn_timeout="0" fq_filter="2" save_dots="0" lop_default="0" need_pre_alarm_init="1">
+		<lgauge0 name="OIL-T"/>
+		<lgauge1 name="OIL-P"/>
+		<lgauge2 name="FUEL-F"/>
+		<lgauge3 name="VOLTS"/>
+		<lgauge4 name="USD"/>
+		<lgauge5 name="REM"/>
+		<lgauge6 name="OAT"/>
+		<lgauge7 name="CRB"/>
+	</user_preferences>
+	<gps_system gps_baud="3" gps_input="3" gps_com="6"/>
+	<sensors map_typ="0" oilp_typ="0" fq_typ="0" fp_typ="1" fp_vendor="0"/>
+	<max_lg max_lg="10"/>
+	<engine2>
+		<channels>
+			<HP enabled="1"/>
+		</channels>
+	</engine2>
+</edm_cfg>

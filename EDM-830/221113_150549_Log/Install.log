@@ -1,0 +1,84 @@
+221113_150549 | Installer Started
+221113_150549 | Initial BootLoader rev = 11.00
+221113_150549 | Initial AppLoader rev = 0.00
+221113_150549 | Initial HWConfigID = 0x810218210612
+221113_150549 | Initial LCD type = COM41H4M31
+221113_150551 | 
+Insert USB drive to install
+updated EDM application
+
+221113_150553 | ARM9 EDM Update
+221113_150554 | Version 7998-2014.01
+221113_150555 | Copyright 2003 - 2022, J.P. Instruments, Inc. 
+All rights reserv221113_150557 | Checking package integrity... 
+221113_150557 | Checking package integrity... 
+221113_150604 | OK
+
+221113_150606 | A: FLASH Memory Formatted
+
+221113_150607 | A:\ExtBoot.sim
+221113_150611 |  Copied
+
+221113_150613 | A:\830-PSplash.jpg
+221113_150615 |  Copied
+
+221113_150616 | A:\830-LSplash.jpg
+221113_150618 |  Copied
+
+221113_150620 | A:\Layout.xml
+221113_150622 |  Copied
+
+221113_150632 | A:\InputChannels.xml
+221113_150634 |  Copied
+
+221113_150641 | A:\EDM2210061000.sim
+221113_150658 |  Copied
+
+221113_150701 | Configuration saved = yes
+221113_150701 | User prefs saved = no
+221113_150701 | Current BootLoader rev = 11.00
+221113_150701 | Current HWConfigID = 0x810218210612
+221113_150701 | Current LCD type = COM41H4M31
+221113_150702 | Updating BootLoader 
+221113_150703 | A:\ExtBoot.sim
+221113_150704 | 
+
+221113_150705 | WARNING: This process takes about 5 seconds
+
+221113_150706 | DO NOT REMOVE POWER...
+
+221113_150708 | Starting Load
+
+221113_150709 | .
+221113_150710 | .
+221113_150711 | .
+221113_150712 | .
+221113_150713 | Programmed ExtBoot Vectors @0
+
+221113_150714 | Programmed ExtBoot Block 1  from 0xc0a10010
+
+221113_150716 | Programmed ExtBoot Block 2  from 0xc0a20010
+
+221113_150717 | Programmed ExtBoot Block 3  from 0xc0a30010
+
+221113_150718 | Programmed ExtBoot Block 4  from 0xc0a40010
+
+221113_150720 | Programmed ExtBoot Block 5  from 0xc0a50010
+
+221113_150721 | Done...
+
+221113_150722 | Deleting 
+221113_150723 | A:\ExtBoot.sim
+221113_150724 | 
+
+221113_150725 | Deleting 
+221113_150726 | A:\ExtBoot.SHA
+221113_150727 | 
+
+221113_150729 | 
+
+Rebooting...
+221113_150729 | User prefs saved = no
+221113_150729 | Current BootLoader rev = 12.00
+221113_150729 | Current HWConfigID = 0x810218210612
+221113_150729 | Current LCD type = COM41H4M31
